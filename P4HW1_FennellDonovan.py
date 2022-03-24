@@ -38,7 +38,7 @@ def main():
     print("--------------Results-----------")
     print("Lowest Score  : ", lowest)
     print("Modified List : ", grade_list)
-    print("Scores Average: ", average)
+    print("Scores Average: ", (f'{average: .2f}'))
     print("Grade         : ", grade)
     print("--------------------------------")
 
